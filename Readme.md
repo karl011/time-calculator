@@ -4,11 +4,11 @@
 Le référentiel contient le code source de l'application, ainsi que les instructions pour l'installer et l'exécuter localement. Le code est organisé en plusieurs modules pour faciliter la maintenance et le développement futur.
 
 # Démarrer time-calculator pour calculer des heures
-1. Pour créer un environnement virtuel, vous pouvez utiliser la commande 
+### 1. Pour créer un environnement virtuel, vous pouvez utiliser la commande 
 ```bash
 python -m venv env
 ```
-2. Puis activer l'environnement virtuel avec la commande
+### 2. Puis activer l'environnement virtuel avec la commande
 ```bash
 source env/bin/activate
 ```
@@ -18,16 +18,19 @@ env\Scripts\activate
 ```
 (sur Windows)
 
-3. Lancez l'application Flask en exécutant le fichier app.py dans votre terminal :
+### 3. Lancez l'application Flask en exécutant le fichier app.py dans votre terminal avec la commande
 ```bash
 python app.py
 ```
-4. Ouvrez votre navigateur web et accédez à l'adresse http://127.0.0.1:5000/ pour afficher la page d'accueil de votre application.
+### 4. Accéder à la page web via un navigateur web
+Ouvrez votre navigateur web et accédez à l'adresse http://127.0.0.1:5000/ pour afficher la page d'accueil de votre application.
 
-5. Pour désactiver l'environnement virtuel dans votre terminal, vous pouvez utiliser la commande ```deactivate```
+### 5. Désactiver l'environnement virtuel
+Pour désactiver l'environnement virtuel dans votre terminal, vous pouvez utiliser la commande ```deactivate```
 (sous Windows) ou 
 ```source deactivate```
 (sous Linux/Mac). Cette commande doit être exécutée dans le terminal où vous avez activé l'environnement virtuel.
+
 # Installation des dépendances
 
 ### 1. Pour installer Flask, vous pouvez utiliser la commande dans votre terminal.
