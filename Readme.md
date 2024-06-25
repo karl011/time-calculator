@@ -1,9 +1,9 @@
-# mini projet "time-calculator"
+# Mini projet "time-calculator"
 "time-calculator" est un outil de calcul de durée qui permet aux utilisateurs d'ajouter et de soustraire des durées sous forme de jours, d'heures, de minutes et de secondes. L'outil est implémenté en Python et utilise le framework Flask pour fournir une interface web conviviale. Les utilisateurs peuvent saisir deux durées et choisir l'opération à effectuer (addition ou soustraction). L'outil renvoie alors le résultat sous forme de durée.
 
 Le référentiel contient le code source de l'application, ainsi que les instructions pour l'installer et l'exécuter localement. Le code est organisé en plusieurs modules pour faciliter la maintenance et le développement futur.
 
-# Démarrer la mini application de calcul d'heures
+# Démarrer time-calculator pour calculer des heures
 1. Pour créer un environnement virtuel, vous pouvez utiliser la commande 
 ```bash
 python -m venv env
@@ -16,7 +16,7 @@ source env/bin/activate
 ```bash
 env\Scripts\activate
 ```
-(sur Windows).
+(sur Windows)
 3. Lancez l'application Flask en exécutant le fichier app.py dans votre terminal :
 ```bash
 python app.py
