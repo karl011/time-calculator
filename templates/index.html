@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcul de durées</title>
+</head>
+<body>
+  <h2>Calcul de durées</h2>
+  <form action="/resultat" method="post">
+    <h3>La première durée</h3>
+    <label for="duree1_jours">Première durée (jours) : </label>
+    <input type="number" id="duree1_jours" name="duree1_jours" placeholder="Le nombre de jours" required><br>
+    <label for="duree1_heures">Première durée (heures) : </label>
+    <input type="number" id="duree1_heures" name="duree1_heures" placeholder="Le nombre d'heures" required><br>
+    <label for="duree1_minutes">Première durée (minutes) : </label>
+    <input type="number" id="duree1_minutes" name="duree1_minutes" placeholder="Le nombre de minutes" required><br>
+    <label for="duree1_secondes">Première durée (secondes) : </label>
+    <input type="number" id="duree1_secondes" name="duree1_secondes" placeholder="Le nombre de secondes" required><br>
+    <h3>La deuxième durée</h3>
+    <label for="duree2_jours">Deuxième durée (jours) : </label>
+    <input type="number" id="duree2_jours" name="duree2_jours" placeholder="Le nombre de jours" required><br>
+    <label for="duree2_heures">Deuxième durée (heures) : </label>
+    <input type="number" id="duree2_heures" name="duree2_heures" placeholder="Le nombre d'heures" required><br>
+    <label for="duree2_minutes">Deuxième durée (minutes) : </label>
+    <input type="number" id="duree2_minutes" name="duree2_minutes" placeholder="Le nombre de minutes" required><br>
+    <label for="duree2_secondes">Deuxième durée (secondes) : </label>
+    <input type="number" id="duree2_secondes" name="duree2_secondes" placeholder="Le nombre de secondes" required><br>
+    <label for="operation">Opération : </label>
+    <select id="operation" name="operation" required>
+      <option value="+">Addition</option>
+      <option value="-">Soustraction</option>
+    </select><br>
+    <input type="submit" value="Calculer">
+  </form>
+  
+</body>
+</html>
