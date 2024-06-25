@@ -1,5 +1,5 @@
 # I. Mini projet "time-calculator"
-"time-calculator" est un outil de calcul de durée qui permet aux utilisateurs d'ajouter et de soustraire des durées sous forme de jours, d'heures, de minutes et de secondes. L'outil est implémenté en Python et utilise le framework Flask pour fournir une interface web conviviale. Les utilisateurs peuvent saisir deux durées et choisir l'opération à effectuer (addition ou soustraction). L'outil renvoie alors le résultat sous forme de durée.
+"time-calculator" est un outil de calcul de durée qui permet aux utilisateurs d'ajouter et de soustraire des durées sous forme de jours, d'heures, de minutes et de secondes. L'outil est implémenté en `Python` et utilise `le framework Flask` pour fournir une interface web conviviale. Les utilisateurs peuvent saisir deux durées et choisir l'opération à effectuer (addition ou soustraction). L'outil renvoie alors le résultat sous forme de durée.
 
 Le référentiel contient le code source de l'application, ainsi que les instructions pour l'installer et l'exécuter localement. Le code est organisé en plusieurs modules pour faciliter la maintenance et le développement futur.
 
@@ -26,9 +26,9 @@ python app.py
 Ouvrez votre navigateur web et accédez à l'adresse http://127.0.0.1:5000/ pour afficher la page d'accueil de votre application.
 
 ### 5. Désactiver l'environnement virtuel
-Pour désactiver l'environnement virtuel dans votre terminal, vous pouvez utiliser la commande ```deactivate```
+Pour désactiver l'environnement virtuel dans votre terminal, vous pouvez utiliser la commande `deactivate`
 (sous Windows) ou 
-```source deactivate```
+`source deactivate`
 (sous Linux/Mac). Cette commande doit être exécutée dans le terminal où vous avez activé l'environnement virtuel.
 
 # III. Installation des dépendances
