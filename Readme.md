@@ -17,6 +17,7 @@ source env/bin/activate
 env\Scripts\activate
 ```
 (sur Windows)
+
 3. Lancez l'application Flask en exécutant le fichier app.py dans votre terminal :
 ```bash
 python app.py
